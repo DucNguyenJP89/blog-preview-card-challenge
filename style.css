@@ -33,8 +33,6 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  gap: 24px;
 }
 
 .preview-card img {
@@ -47,7 +45,7 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 0 24px 0 24px;
+  margin: 24px;
 }
 
 .content .label {
@@ -59,6 +57,35 @@ main {
 
 .content .subtext {
   color: var(--card-gray-950);
+  margin: 12px 0;
+}
+
+.content .title {
+  color: var(--card-gray-950);
+  margin: 12px 0;
+}
+
+.content .title:hover {
+  color: var(--card-yellow);
+  cursor: pointer;
+}
+
+.content .description {
+  color: var(--card-gray-500);
+  margin: 12px 0;
+}
+
+.preview-card .author {
+  display: flex;
+}
+.author img {
+  width: 32px;
+  height: 32px;
+  margin: 0 12px 24px 24px;
+}
+
+.author span {
+  margin-top: 4px;
 }
 
 .text-preset1 {
@@ -82,9 +109,16 @@ main {
 }
 
 .attribution {
+  margin-top: 8px;
   font-size: 11px;
   text-align: center;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 480px) {
+  .preview-card {
+    width: 327px;
+  }
 }
