@@ -29,10 +29,10 @@ Users should be able to:
 ### Screenshot
 
 PC
-[](./design/PC-solution.png)
+![](./design/PC-solution.png)
 
 SP
-[](./design/Mobile-solution.png)
+![](./design/Mobile-solution.png)
 
 ### Links
 
