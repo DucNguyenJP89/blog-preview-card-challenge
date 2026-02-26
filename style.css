@@ -57,12 +57,12 @@ main {
 
 .content .subtext {
   color: var(--card-gray-950);
-  margin: 12px 0;
+  margin: 8px 0;
 }
 
 .content .title {
   color: var(--card-gray-950);
-  margin: 12px 0;
+  margin: 8px 0;
 }
 
 .content .title:hover {
@@ -72,7 +72,7 @@ main {
 
 .content .description {
   color: var(--card-gray-500);
-  margin: 12px 0;
+  margin: 8px 0;
 }
 
 .preview-card .author {
